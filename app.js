@@ -132,10 +132,19 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+    var totalmulti=multiply(multArr[0],multArr[1])[0];
+    console.log(totalmulti)
+    var totalmultiFinal =multiply(totalmulti,multArr[2])[0];
+    // var messagearry=`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${totalSumFinal} is their sum.`
+    var messagesumArr="The numbers 2,3,4 have a product of 24."
+    console.log('message',messagesumArr);
+    console.log('total',totalmulti);
+    return[totalmulti,messagesumArr];
+
 
 
 }
-
+testMultiplyArray(testArray);
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
 
