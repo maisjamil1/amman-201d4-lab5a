@@ -143,6 +143,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray) { //eslint-disable-line
+<<<<<<< HEAD
     var totalmulti=multiply(testArray[0],testArray[1])[0];
     // console.log(totalmulti);
         var totalmultiFinal=multiply(totalmulti,testArray[2])[0];
@@ -151,11 +152,14 @@ function multiplyArray(testArray) { //eslint-disable-line
     // console.log('message',messagesumArr);
     // console.log('total',totalmultiFinal);
     return[totalmultiFinal,messagesumArr];
+=======
+   
+>>>>>>> sumArray1
 
 
 
 }
-testMultiplyArray(testArray);
+// testMultiplyArray(testArray);
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
 
@@ -181,6 +185,7 @@ Test this function by hand in the console to get it working, and when you think 
 var testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+<<<<<<< HEAD
     var multAnyArray=0;
     for (var i=0;i>dynamicArray.lenght;i++){
         multAnyArray=multiply(dynamicArray[i],dynamicArray[i++])[0];
@@ -188,8 +193,12 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     }
     var arrmessage=`The numbers ${dynamicArray[0]},${dynamicArray[1]},${dynamicArray[2]},${dynamicArray[3]},${dynamicArray[4]} have a product of ${multAnyArray}.`
     return[multAnyArray,arrmessage];
+=======
+    
+
+>>>>>>> sumArray1
 }
-testMultiplyAnyArray(testDynamicArray);
+// testMultiplyAnyArray(testDynamicArray);
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
