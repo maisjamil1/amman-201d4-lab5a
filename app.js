@@ -53,20 +53,10 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
-    var theSum1=sum(a,b)[0];
-    var theSum2=sum(theSum1,c)[0];
 
-    var theProduct1=multiply(a,b)[0];
-    var theproduct2=multiply(theProduct1,c)[0];
-
-    var thirdElement="4 and 7 and 5 sum to 16.";
-    var fourthElement="The product of 4 and 7 and 5 is 140.";
-
-    return[theSum2,theproduct2,thirdElement,fourthElement];
 
 }
-testSumAndMultiply(4,7,5);
+// testSumAndMultiply(4,7,5);
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
 
