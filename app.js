@@ -184,6 +184,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 var testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 
+<<<<<<< HEAD
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 <<<<<<< HEAD
     var multAnyArray=0;
@@ -197,6 +198,9 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     
 
 >>>>>>> sumArray1
+=======
+
+>>>>>>> multiplyArray
 }
 // testMultiplyAnyArray(testDynamicArray);
 
