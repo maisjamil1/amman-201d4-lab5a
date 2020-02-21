@@ -131,15 +131,15 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) { //eslint-disable-line
-    var totalmulti=multiply(multArr[0],multArr[1])[0];
-    console.log(totalmulti)
-    var totalmultiFinal =multiply(totalmulti,multArr[2])[0];
+function multiplyArray(testArray) { //eslint-disable-line
+    var totalmulti=multiply(testArray[0],testArray[1])[0];
+    console.log(totalmulti);
+        var totalmultiFinal=multiply(totalmulti,testArray[2])[0];
     // var messagearry=`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${totalSumFinal} is their sum.`
-    var messagesumArr="The numbers 2,3,4 have a product of 24."
+    var messagesumArr=`The numbers ${testArray[0]},${testArray[1]},${testArray[2]} have a product of ${totalmultiFinal}.`
     console.log('message',messagesumArr);
-    console.log('total',totalmulti);
-    return[totalmulti,messagesumArr];
+    console.log('total',totalmultiFinal);
+    return[totalmultiFinal,messagesumArr];
 
 
 
