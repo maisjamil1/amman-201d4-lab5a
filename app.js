@@ -102,12 +102,12 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(sumArr) { 
     var totalSum1=sum(sumArr[0],sumArr[1])[0];
-    console.log(totalSum1)
+    // console.log(totalSum1)
     var totalSumFinal=sum(totalSum1,sumArr[2])[0];
     // var messagearry=`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${totalSumFinal} is their sum.`
     var messagesumArr=sumArr[0]+','+sumArr[1]+','+sumArr[2]+' was passed in as an array of numbers, and '+ totalSumFinal+' is their sum.'
-    console.log('message',messagesumArr);
-    console.log('total',totalSumFinal);
+    // console.log('message',messagesumArr);
+    // console.log('total',totalSumFinal);
     return[totalSumFinal,messagesumArr];
 }
 
@@ -133,12 +133,12 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiplyArray(testArray) { //eslint-disable-line
     var totalmulti=multiply(testArray[0],testArray[1])[0];
-    console.log(totalmulti);
+    // console.log(totalmulti);
         var totalmultiFinal=multiply(totalmulti,testArray[2])[0];
     // var messagearry=`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${totalSumFinal} is their sum.`
     var messagesumArr=`The numbers ${testArray[0]},${testArray[1]},${testArray[2]} have a product of ${totalmultiFinal}.`
-    console.log('message',messagesumArr);
-    console.log('total',totalmultiFinal);
+    // console.log('message',messagesumArr);
+    // console.log('total',totalmultiFinal);
     return[totalmultiFinal,messagesumArr];
 
 
@@ -177,7 +177,6 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     }
     var arrmessage=`The numbers ${dynamicArray[0]},${dynamicArray[1]},${dynamicArray[2]},${dynamicArray[3]},${dynamicArray[4]} have a product of ${multAnyArray}.`
     return[multAnyArray,arrmessage];
-
 }
 testMultiplyAnyArray(testDynamicArray);
 
