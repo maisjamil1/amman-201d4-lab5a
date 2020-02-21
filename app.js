@@ -32,7 +32,11 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
     var theProduct = a * b;
+<<<<<<< HEAD
     var message2 = `The product of ${a} and ${b} is ${theProduct}.`;
+=======
+    var message2 = `The product of ${a} and ${b} is 45.`;
+>>>>>>> multiply
     return [theProduct, message2];
 }
 testMultiply();
@@ -53,6 +57,7 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
+<<<<<<< HEAD
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     var theSum1=sum(a,b)[0];
     var theSum2=sum(theSum1,c)[0];
@@ -67,6 +72,12 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
 
 }
 testSumAndMultiply(4,7,5);
+=======
+
+
+}
+// testSumAndMultiply(4,7,5);
+>>>>>>> multiply
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
 
